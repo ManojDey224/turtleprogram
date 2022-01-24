@@ -1,0 +1,50 @@
+from turtle import *
+speed(5)
+
+# Trunk
+color("black")
+pensize(15)
+left(270)
+pu()
+goto(0,250)
+pd()
+forward(500)
+
+# Draw the tree 1
+pu()
+color("green")
+pensize(5)
+goto(0,250)
+pd()
+left(45)
+forward(100)
+left(225)
+forward(150)
+left(225)
+forward(100)
+
+# Tree body 2
+pu()
+goto(0,150)
+pd()
+left(270)
+forward(150)
+right(135)
+forward(220)
+right(135)
+forward(150)
+# begin_fill()
+# fillcolor("green")
+# end_fill()
+
+# Draw the tree body 3
+pu()
+goto(0,0)
+pd()
+left(270)
+forward(220)
+right(135)
+forward(320)
+right(135)
+forward(220)
+done()
